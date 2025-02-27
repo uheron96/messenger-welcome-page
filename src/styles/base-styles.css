@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  font-family: "Red Hat Display";
+
+  .button-cyan {
+    --background-color: #4d96a9;
+    --button-text-color: #f0f0f0;
+    --version-color: #8fe3f9;
+    --width: 60%;
+  }
+
+  .button-purple {
+    --background-color: #855fb1;
+    --button-text-color: #f0f0f0;
+    --version-color: #d9b8ff;
+    --width: 50%;
+  }
+
+  --background-color: #f0f0f0;
+  --page-number-container-color: #fff;
+  --page-number-border-color: #d1d1df;
+
+  --footer-color: rgba(77, 150, 169, 0.8);
+
+  --h1-size: 8vw;
+  --h1-weight: 900;
+  --h1-color: #28283d;
+
+  --h2-size: 4vw;
+  --h2-weight: 400;
+  --h2-color: #87879d;
+
+  --h3-size: 3vw;
+  --h3-weight: 600;
+  --h3-color: #87879d;
+
+  --h4-size: 4vw;
+  --h4-weight: 800;
+  --h4-color: #4d96a9;
+
+  --button-font-size: 4vw;
+  --button-font-weight: 800;
+
+  --footer-text-color: #f0f0f0;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+button,
+img {
+  margin: 0;
+  padding: 0;
+}

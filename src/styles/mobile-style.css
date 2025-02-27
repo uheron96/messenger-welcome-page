@@ -1,0 +1,171 @@
+/* Typography */
+h1 {
+  font-size: var(--h1-size);
+  font-weight: var(--h1-weight);
+  color: var(--h1-color);
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--h2-size);
+  font-weight: var(--h2-weight);
+  color: var(--h2-color);
+  text-align: center;
+}
+
+h3 {
+  font-size: var(--h3-size);
+  font-weight: var(--h3-weight);
+  color: var(--h3-color);
+}
+
+h4 {
+  color: var(--h4-color);
+  font-size: var(--h4-size);
+  font-weight: var(--h4-weight);
+  letter-spacing: 4px;
+}
+/* ----- */
+
+/* Images */
+.logo {
+  width: 7.3em;
+  height: 1.75em;
+}
+
+.users-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-image,
+.right-image {
+  width: 50%;
+  height: auto;
+}
+
+.images-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1em;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+/* ----- */
+
+/* Buttons */
+.download-button,
+.info-button {
+  background-color: var(--background-color);
+  width: var(--width);
+  height: 4em;
+  border-color: transparent;
+  border-radius: 100px;
+  color: var(--button-text-color);
+  font-size: var(--button-font-size);
+  font-weight: var(--button-font-weight);
+}
+
+span {
+  color: var(--version-color);
+}
+/* ----- */
+
+/* Page Number */
+.page-number-line {
+  height: 5em;
+  width: 1px;
+  background-color: var(--page-number-border-color);
+}
+
+.page-number-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--page-number-border-color);
+  border-radius: 50px;
+  width: 3em;
+  height: 3em;
+  background-color: var(--page-number-container-color);
+  z-index: 1;
+}
+/* ----- */
+
+/* Footer */
+.footer {
+  margin-top: -5.5em;
+  gap: 2em;
+  position: relative;
+  background: url("/src/assets/desktop/image-footer.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 3em;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--footer-color);
+  z-index: 0;
+}
+
+.footer h1,
+.footer h2,
+.footer button {
+  z-index: 1;
+}
+
+.footer h1,
+.footer h2 {
+  color: var(--footer-text-color);
+}
+/* ----- */
+
+/* Content Containers */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  padding: 2em;
+}
+
+.inner-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.page-divider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* ----- */
