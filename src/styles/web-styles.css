@@ -1,0 +1,9 @@
+@media screen and (min-width: 90em) {
+  .web-header-container {
+    display: contents;
+  }
+
+  .mobile-header-container {
+    display: none;
+  }
+}
