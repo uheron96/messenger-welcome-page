@@ -160,6 +160,16 @@ span {
   gap: 2em;
 }
 
+.secondary-description-container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .buttons-container {
   width: 100%;
   display: flex;

@@ -1,6 +1,71 @@
 @media screen and (min-width: 90em) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+  }
+
   .web-header-container {
-    display: contents;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    gap: 2em;
+  }
+
+  .left-image,
+  .right-image {
+    width: 23%;
+    height: auto;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .download-button,
+  .info-button {
+    width: var(--web-width);
+    height: 3em;
+  }
+
+  .images-gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .gallery-image {
+    width: 24%;
+  }
+
+  .secondary-description-container {
+    width: 50%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3em;
+  }
+
+  .footer h1,
+  .footer h2 {
+    text-align: left;
   }
 
   .mobile-header-container {
