@@ -41,7 +41,7 @@
   --h4-weight: 800;
   --h4-color: #4d96a9;
 
-  --button-font-size: clamp(1.3rem, 4vw, 1rem);
+  --button-font-size: clamp(0.9rem, 3.5vw, 1.2rem);
   --button-font-weight: 800;
 
   --footer-text-color: #f0f0f0;

@@ -1,0 +1,29 @@
+@media screen and (min-width: 48em) {
+  .images-gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .gallery-image {
+    width: 24%;
+  }
+
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .download-button,
+  .info-button {
+    width: var(--web-width);
+    height: 3em;
+  }
+
+  .page-divider-container {
+    margin-top: 5em;
+  }
+}
