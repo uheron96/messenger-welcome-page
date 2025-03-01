@@ -9,6 +9,7 @@
     --version-color: #8fe3f9;
     --width: 60%;
     --web-width: 40%;
+    --hover-color: #5ec8e2;
   }
 
   .button-purple {
@@ -17,6 +18,7 @@
     --version-color: #d9b8ff;
     --width: 50%;
     --web-width: 30%;
+    --hover-color: #bc8ef0;
   }
 
   --background-color: #f0f0f0;
